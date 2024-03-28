@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #282525;
+ }
+ 
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+ }
+ 
+ .logo {
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 25px;
+ }
+
+ .logo a{
+    text-decoration: none;
+    color: #fff;
+ }
+ 
+ .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding-right: 40px;
+    font-size: 20px;
+ }
+ .hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .hero-content h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+ }
+ 
+ .hero-content p {
+    font-size: 1.5em;
+    margin-top: 0;
+ }
+ 
+ .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+ }
+ 
+ .cta:hover {
+    background-color: #fff;
+    color: #000;
+ }
+
+/* MAIN */
+.main{
+   height: 800px;
+   width: 100%;
+   background-color: #222121;
+   background-image: url("party.jpg");
+   background-size: cover;
+}
+.box{
+   padding-top: 90px;
+   padding-left: 500px;
+}
+.container {
+   width: 100%;
+   max-width: 600px;
+   padding: 30px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   text-align: center;
+   background: transparent;
+   border: 2px solid rgb(255,255,255,.5);
+   border-radius: 20px;
+   backdrop-filter: blur(20px);
+   box-shadow: 0 0 30px rgb(0,0,0,.5);
+}
+
+h1 {
+   font-size: 24px;
+   margin-bottom: 15px;
+   color: #9d59c4;
+}
+.form-group{
+   color: #fff;
+}
+p {
+   font-size: 16px;
+   color: #ffffff;
+   margin-bottom: 25px;
+}
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+select, input[type="date"], input[type="time"] {
+   width: 100%; /* Set width to 100% for full width */
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box; /* Include padding in width */
+}
+
+button[type="submit"] {
+   background-color: #4d42ab; /* Green color for button */
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+button[type="submit"]:hover {
+   background-color: #45A049; /* Darker green on hover */
+}
+
+
+
+
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .logo h1{
+     padding-left: 25px;
+  }
+ 
+  .footer-left-column, .footer-right-column {
+     width: 45%;
+     padding: 50px;
+     padding-left: 20px;
+  }
+  
+  .footer-right-column {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+  }
+  
+ .footer-right-column form {
+     display: flex;
+     flex-direction: column;
+  }
+ 
+  .footer-right-column form input[type="email"] {
+     background-color: transparent;
+     border: none;
+     border-bottom: 1px solid white;
+     padding: 2px 0;
+     margin: 10px;
+   }  
+  
+ .footer-right-column form input[type="submit"] {
+     background-color: #c9c9ff;
+     color: #111;
+     padding: 20px 40px;
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     margin: 30px;
+  }
+  .footer .footer-right-column form input[type="submit"]:hover {
+     background-color: #a46fea;
+     color: #c9c9ff;
+  }
+ 

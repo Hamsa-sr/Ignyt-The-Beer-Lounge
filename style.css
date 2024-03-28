@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #282525;
+ }
+ 
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+ }
+ 
+ .logo {
+    font-weight: bold;
+    padding-left: 50px;
+    font-size: 25px;
+ }
+ .logo a{
+   text-decoration: none;
+   color: #fff;
+}
+ .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding-right: 40px;
+    font-size: 20px;
+ }
+ .hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .hero-content h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+ }
+ 
+ .hero-content p {
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: bold;
+ }
+ 
+ .cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+ }
+ 
+ .cta:hover {
+    background-color: #fff;
+    color: #000;
+ }
+
+/* About Section */
+ .about {
+    height: 800px; /* New line */
+  }
+ 
+ .about aside {
+    width: 50%;
+    color: #fff;
+    float: left;
+    padding-bottom: 80px;
+ }
+ video {
+    padding-left: 120px;
+ }
+ .about aside h1{
+    padding-left: 90px;
+    padding-top: 90px;
+    padding-bottom: 10px;
+ }
+
+ .about aside p{
+    padding-left: 80px;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 60px;
+ }
+
+ .about aside img{
+    float: left;
+    width: 650px;
+    margin-top: 110px;
+    padding-left: 90px;
+ }
+
+ /* MENU SECTION */
+ .menu{
+    height: 800px;
+    background-color: black;
+    color: #fff;
+ }
+.beer-menu{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+ }
+
+ .menu aside{
+    float: left;
+ }
+ .menu img{
+    width: 450px;
+    height: 400px;
+    padding-left: 150px;
+ }
+ .menu h2{
+    padding-left: 250px;
+ }
+ .menu p{
+    font-size: 20px;
+    padding-left: 220px;
+ }
+ .menubtn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 730px;
+ }
+ .menubtn:hover{
+    background-color: #fff;
+    color: #000;
+ }
+
+ /* EVENTS AND PROMOTION */
+ 
+ .events{
+    height: 700px;
+    background: #1e1e1e;
+    color: white;
+ }
+ .event {
+    font-size: 55px;
+    padding-left: 550px;
+    padding-top: 50px;
+    font-weight: bold;
+ }
+ .events p{
+    font-size: 30px;
+    padding-left: 450px;
+ }
+ .events img{
+    width: 700px;
+    height: 400px;
+    padding-left: 100px;
+ }
+   
+ /* footer */
+ .footer {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+   background-color: #111;
+   color: #fff;
+   font-family: Arial, sans-serif;
+ }
+
+ .logo h1{
+    padding-left: 25px;
+ }
+
+ .left-column, .right-column {
+    width: 45%;
+    padding: 50px;
+    padding-left: 20px;
+ }
+ 
+ .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ 
+ 
+.right-column form {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .right-column form input[type="email"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 2px 0;
+    margin: 10px;
+  }  
+ 
+.right-column form input[type="submit"] {
+    background-color: #c9c9ff;
+    color: #111;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 30px;
+ }
+ .footer .right-column form input[type="submit"]:hover {
+    background-color: #a46fea;
+    color: #c9c9ff;
+ }
